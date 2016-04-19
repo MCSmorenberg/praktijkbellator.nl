@@ -7,6 +7,6 @@ version 0.14.0.
 
 Run `grunt` for building and `grunt serve` for preview.
 
-## Testing
+## Website
 
-Running `grunt test` will run the unit tests with karma.
+See the website on http://www.praktijkbellator.nl/#/
