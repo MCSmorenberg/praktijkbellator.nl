@@ -1,0 +1,45 @@
+.text-area-quote {
+  text-align: center;
+  padding: 0 100px 0 100px;
+}
+
+.author-color {
+  color: #bdbdbd;
+}
+
+.text-area-half {
+  padding: 0 0 0 100px;
+  text-align: justify;
+}
+
+.profile-img {
+  max-width: 100%;
+  padding: 110px 50px 0 0;
+}
+
+////////////////////* Responsive: tablets *///////////////////////
+@media screen and (max-width: 992px) {
+  .text-area-quote {
+    text-align: center;
+    padding: 0 65px 0 65px;
+  }
+
+  .text-area-half {
+    padding: 0 0 0 70px;
+  }
+
+  .profile-img {
+    padding: 190px 40px 0 0;
+  }
+}
+
+////////////////////* Responsive: phones *///////////////////////
+@media screen and (max-width: 768px) {
+  .text-area-half {
+    padding: 0 40px 0 40px;
+  }
+
+  .profile-img {
+    padding: 0 120px 15px 120px;
+  }
+}

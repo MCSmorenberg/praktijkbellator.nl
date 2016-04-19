@@ -1,0 +1,75 @@
+.main-img {
+  max-width: 100%;
+  margin: 18px 0 18px 0;
+}
+
+.main-container {
+  position: relative;
+}
+
+.circle {
+  border: 7px solid white;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  width: 32%;
+  height: 90%;
+  position: absolute;
+  top: 5%;
+  right: 0;
+}
+
+.main-img-text {
+  font-family: 'Special Elite', cursive;
+  position: absolute;
+  text-align: center;
+  top: 28%;
+  left: 13%;
+  font-size: 35px;
+  line-height: 50px;
+  color: black;
+}
+
+.text-area-default {
+  padding: 0 100px 0 100px;
+  text-align: justify;
+}
+
+////////////////////* Responsive: tablets *///////////////////////
+@media screen and (max-width: 992px) {
+  .circle {
+    height: 86%;
+    top: 7%;
+  }
+
+  .main-img-text {
+    top: 26%;
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .text-area-default {
+    padding: 0 70px 0 70px;
+  }
+}
+
+////////////////////* Responsive: phones *///////////////////////
+@media screen and (max-width: 768px) {
+  .circle {
+    border: 5px solid white;
+    height: 80%;
+    top: 10%;
+
+  }
+
+  .main-img-text {
+    top: 23%;
+    left: 6%;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .text-area-default {
+    padding: 0 40px 0 40px;
+  }
+}

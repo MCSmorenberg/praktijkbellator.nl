@@ -1,0 +1,124 @@
+.address-box {
+  width: 80%;
+  height: 470px;
+  background-color: #E4BF8F;
+  margin: 25px 0 25px 50px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.address-box h4 {
+  color: white;
+  margin: 0;
+}
+
+.address-box p {
+  color: white;
+  margin: 0;
+}
+
+.contact-img {
+  width: 85%;
+  margin: 25px 0 20px 0;
+}
+
+.addressLine {
+  // margin here!
+  max-width: 92%;
+  margin: 10px auto 10px auto;
+  border-bottom: 1px dashed #666666;
+}
+
+//////////////// form css ////////////////
+.form-text {
+  margin: 40px 100px 20px 0;
+}
+
+.temporaryForm {
+  margin: 25px 100px 20px 0;
+  width: 100% !important;
+}
+
+.css-form {
+  margin: 20px 100px 20px 0;
+}
+
+.css-form input, textarea {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #666666;
+  margin-bottom: 10px;
+}
+
+.resizedTextbox {
+  height: 152px;
+}
+
+.button {
+  width: 100px !important;
+  height: 40px;
+  color: white;
+  background-color: #E4BF8F;
+  border: none !important;
+  float: right !important;
+}
+
+.buttonTwo {
+  color: white;
+  background-color: #E4BF8F;
+  border: none !important;
+}
+
+.emailErrorMessage {
+  color: red;
+}
+
+////////////// end form css //////////////
+
+////////////////////* Responsive: tablets *///////////////////////
+@media screen and (max-width: 992px) {
+  .emailAddress p {
+    font-size: 12px;
+  }
+
+  .resizedTextbox {
+    height: 129px;
+  }
+
+  .address-box {
+    // for temporary form!!
+    height: 395px;
+  }
+}
+
+////////////////////* Responsive: phones *///////////////////////
+@media screen and (max-width: 768px) {
+  .address-box {
+    width: 65%;
+    height: 425px;
+    margin: 25px auto 15px auto;
+  }
+
+  .address-box p {
+    color: white;
+    margin: 0 0 0 0;
+  }
+
+  .emailAddress p {
+    font-size: 14px;
+  }
+
+  .contact-img {
+    width: 75%;
+    margin-bottom: 10px;
+  }
+
+  .form-text {
+    margin: 0 40px 0 40px;
+  }
+
+  .css-form {
+    margin: 15px 40px 15px 40px;
+  }
+}
+

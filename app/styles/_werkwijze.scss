@@ -1,0 +1,21 @@
+.text-area-center {
+  padding: 0 100px 0 100px;
+  text-align: center;
+}
+
+.big-paragraph {
+  font-size: 19px;
+  padding-bottom: 10px;
+}
+
+////////////////////* Responsive: phones *///////////////////////
+@media screen and (max-width: 768px) {
+  .text-area-center {
+    padding: 0 40px 0 40px;
+  }
+
+  .big-paragraph {
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+}

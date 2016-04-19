@@ -1,0 +1,40 @@
+.tarieven-table {
+  margin: 50px 0 15px 50px;
+}
+
+th {
+  padding:0 75px 20px 0;
+}
+
+.weegschaal-img {
+  max-width: 100%;
+  padding: 22% 50px 0 0;
+}
+
+////////////////////* Responsive: tablets *///////////////////////
+@media screen and (max-width: 992px) {
+  th {
+    padding:0 40px 20px 0;
+  }
+
+  .weegschaal-img {
+    padding: 135px 45px 0 0;
+  }
+}
+
+////////////////////* Responsive: phones *///////////////////////
+@media screen and (max-width: 768px) {
+  .tarieven-table {
+    margin: auto auto auto auto;
+  }
+
+  th {
+    padding:0 10px 10px 10px;
+  }
+
+  .weegschaal-img {
+    max-width: 100%;
+    padding: 0 50px 15px 50px;
+  }
+}
+
